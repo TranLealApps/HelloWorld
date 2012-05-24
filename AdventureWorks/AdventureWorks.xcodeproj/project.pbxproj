@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		607DE731156EEF090070044D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607DE730156EEF090070044D /* UIKit.framework */; };
+		607DE733156EEF090070044D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607DE732156EEF090070044D /* Foundation.framework */; };
+		607DE735156EEF090070044D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607DE734156EEF090070044D /* CoreGraphics.framework */; };
+		607DE73B156EEF090070044D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 607DE739156EEF090070044D /* InfoPlist.strings */; };
+		607DE73D156EEF090070044D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 607DE73C156EEF090070044D /* main.m */; };
+		607DE741156EEF090070044D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 607DE740156EEF090070044D /* AppDelegate.m */; };
+		607DE744156EEF090070044D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607DE742156EEF090070044D /* MainStoryboard_iPhone.storyboard */; };
+		607DE747156EEF090070044D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607DE745156EEF090070044D /* MainStoryboard_iPad.storyboard */; };
+		607DE74A156EEF090070044D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 607DE749156EEF090070044D /* ViewController.m */; };
+		607DE752156EEF090070044D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607DE751156EEF090070044D /* SenTestingKit.framework */; };
+		607DE753156EEF090070044D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607DE730156EEF090070044D /* UIKit.framework */; };
+		607DE754156EEF090070044D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607DE732156EEF090070044D /* Foundation.framework */; };
+		607DE75C156EEF090070044D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 607DE75A156EEF090070044D /* InfoPlist.strings */; };
+		607DE75F156EEF090070044D /* AdventureWorksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 607DE75E156EEF090070044D /* AdventureWorksTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		607DE755156EEF090070044D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607DE723156EEF090070044D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607DE72B156EEF090070044D;
+			remoteInfo = AdventureWorks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		607DE72C156EEF090070044D /* AdventureWorks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventureWorks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607DE730156EEF090070044D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		607DE732156EEF090070044D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		607DE734156EEF090070044D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		607DE738156EEF090070044D /* AdventureWorks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdventureWorks-Info.plist"; sourceTree = "<group>"; };
+		607DE73A156EEF090070044D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		607DE73C156EEF090070044D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		607DE73E156EEF090070044D /* AdventureWorks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdventureWorks-Prefix.pch"; sourceTree = "<group>"; };
+		607DE73F156EEF090070044D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		607DE740156EEF090070044D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		607DE743156EEF090070044D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		607DE746156EEF090070044D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		607DE748156EEF090070044D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		607DE749156EEF090070044D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		607DE750156EEF090070044D /* AdventureWorksTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventureWorksTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607DE751156EEF090070044D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		607DE759156EEF090070044D /* AdventureWorksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdventureWorksTests-Info.plist"; sourceTree = "<group>"; };
+		607DE75B156EEF090070044D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		607DE75D156EEF090070044D /* AdventureWorksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdventureWorksTests.h; sourceTree = "<group>"; };
+		607DE75E156EEF090070044D /* AdventureWorksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdventureWorksTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607DE729156EEF090070044D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607DE731156EEF090070044D /* UIKit.framework in Frameworks */,
+				607DE733156EEF090070044D /* Foundation.framework in Frameworks */,
+				607DE735156EEF090070044D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607DE74C156EEF090070044D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607DE752156EEF090070044D /* SenTestingKit.framework in Frameworks */,
+				607DE753156EEF090070044D /* UIKit.framework in Frameworks */,
+				607DE754156EEF090070044D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		607DE721156EEF090070044D = {
+			isa = PBXGroup;
+			children = (
+				607DE736156EEF090070044D /* AdventureWorks */,
+				607DE757156EEF090070044D /* AdventureWorksTests */,
+				607DE72F156EEF090070044D /* Frameworks */,
+				607DE72D156EEF090070044D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		607DE72D156EEF090070044D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607DE72C156EEF090070044D /* AdventureWorks.app */,
+				607DE750156EEF090070044D /* AdventureWorksTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607DE72F156EEF090070044D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				607DE730156EEF090070044D /* UIKit.framework */,
+				607DE732156EEF090070044D /* Foundation.framework */,
+				607DE734156EEF090070044D /* CoreGraphics.framework */,
+				607DE751156EEF090070044D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		607DE736156EEF090070044D /* AdventureWorks */ = {
+			isa = PBXGroup;
+			children = (
+				607DE73F156EEF090070044D /* AppDelegate.h */,
+				607DE740156EEF090070044D /* AppDelegate.m */,
+				607DE742156EEF090070044D /* MainStoryboard_iPhone.storyboard */,
+				607DE745156EEF090070044D /* MainStoryboard_iPad.storyboard */,
+				607DE748156EEF090070044D /* ViewController.h */,
+				607DE749156EEF090070044D /* ViewController.m */,
+				607DE737156EEF090070044D /* Supporting Files */,
+			);
+			path = AdventureWorks;
+			sourceTree = "<group>";
+		};
+		607DE737156EEF090070044D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607DE738156EEF090070044D /* AdventureWorks-Info.plist */,
+				607DE739156EEF090070044D /* InfoPlist.strings */,
+				607DE73C156EEF090070044D /* main.m */,
+				607DE73E156EEF090070044D /* AdventureWorks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607DE757156EEF090070044D /* AdventureWorksTests */ = {
+			isa = PBXGroup;
+			children = (
+				607DE75D156EEF090070044D /* AdventureWorksTests.h */,
+				607DE75E156EEF090070044D /* AdventureWorksTests.m */,
+				607DE758156EEF090070044D /* Supporting Files */,
+			);
+			path = AdventureWorksTests;
+			sourceTree = "<group>";
+		};
+		607DE758156EEF090070044D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607DE759156EEF090070044D /* AdventureWorksTests-Info.plist */,
+				607DE75A156EEF090070044D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607DE72B156EEF090070044D /* AdventureWorks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607DE762156EEF090070044D /* Build configuration list for PBXNativeTarget "AdventureWorks" */;
+			buildPhases = (
+				607DE728156EEF090070044D /* Sources */,
+				607DE729156EEF090070044D /* Frameworks */,
+				607DE72A156EEF090070044D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventureWorks;
+			productName = AdventureWorks;
+			productReference = 607DE72C156EEF090070044D /* AdventureWorks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		607DE74F156EEF090070044D /* AdventureWorksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607DE765156EEF090070044D /* Build configuration list for PBXNativeTarget "AdventureWorksTests" */;
+			buildPhases = (
+				607DE74B156EEF090070044D /* Sources */,
+				607DE74C156EEF090070044D /* Frameworks */,
+				607DE74D156EEF090070044D /* Resources */,
+				607DE74E156EEF090070044D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607DE756156EEF090070044D /* PBXTargetDependency */,
+			);
+			name = AdventureWorksTests;
+			productName = AdventureWorksTests;
+			productReference = 607DE750156EEF090070044D /* AdventureWorksTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607DE723156EEF090070044D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 607DE726156EEF090070044D /* Build configuration list for PBXProject "AdventureWorks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 607DE721156EEF090070044D;
+			productRefGroup = 607DE72D156EEF090070044D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607DE72B156EEF090070044D /* AdventureWorks */,
+				607DE74F156EEF090070044D /* AdventureWorksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607DE72A156EEF090070044D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607DE73B156EEF090070044D /* InfoPlist.strings in Resources */,
+				607DE744156EEF090070044D /* MainStoryboard_iPhone.storyboard in Resources */,
+				607DE747156EEF090070044D /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607DE74D156EEF090070044D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607DE75C156EEF090070044D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		607DE74E156EEF090070044D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607DE728156EEF090070044D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607DE73D156EEF090070044D /* main.m in Sources */,
+				607DE741156EEF090070044D /* AppDelegate.m in Sources */,
+				607DE74A156EEF090070044D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607DE74B156EEF090070044D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607DE75F156EEF090070044D /* AdventureWorksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		607DE756156EEF090070044D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607DE72B156EEF090070044D /* AdventureWorks */;
+			targetProxy = 607DE755156EEF090070044D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		607DE739156EEF090070044D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607DE73A156EEF090070044D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		607DE742156EEF090070044D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607DE743156EEF090070044D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		607DE745156EEF090070044D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607DE746156EEF090070044D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		607DE75A156EEF090070044D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607DE75B156EEF090070044D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607DE760156EEF090070044D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		607DE761156EEF090070044D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607DE763156EEF090070044D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdventureWorks/AdventureWorks-Prefix.pch";
+				INFOPLIST_FILE = "AdventureWorks/AdventureWorks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		607DE764156EEF090070044D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdventureWorks/AdventureWorks-Prefix.pch";
+				INFOPLIST_FILE = "AdventureWorks/AdventureWorks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		607DE766156EEF090070044D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AdventureWorks.app/AdventureWorks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdventureWorks/AdventureWorks-Prefix.pch";
+				INFOPLIST_FILE = "AdventureWorksTests/AdventureWorksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		607DE767156EEF090070044D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AdventureWorks.app/AdventureWorks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdventureWorks/AdventureWorks-Prefix.pch";
+				INFOPLIST_FILE = "AdventureWorksTests/AdventureWorksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607DE726156EEF090070044D /* Build configuration list for PBXProject "AdventureWorks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607DE760156EEF090070044D /* Debug */,
+				607DE761156EEF090070044D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607DE762156EEF090070044D /* Build configuration list for PBXNativeTarget "AdventureWorks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607DE763156EEF090070044D /* Debug */,
+				607DE764156EEF090070044D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		607DE765156EEF090070044D /* Build configuration list for PBXNativeTarget "AdventureWorksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607DE766156EEF090070044D /* Debug */,
+				607DE767156EEF090070044D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607DE723156EEF090070044D /* Project object */;
+}
